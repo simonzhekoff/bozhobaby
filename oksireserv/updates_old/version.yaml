@@ -1,0 +1,11 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Updated table buzz_oksireservations_oksireservations'
+    - builder_table_update_buzz_oksireserv_reservations.php
+v1.0.3:
+    - 'Updated table buzz_oksireservations_statuses'
+    - builder_table_update_buzz_oksireserv_statuses.php
+v1.0.4:
+    - 'Updated table buzz_oksireserv_reservations'
+    - builder_table_update_buzz_oksireserv_reservations_2.php

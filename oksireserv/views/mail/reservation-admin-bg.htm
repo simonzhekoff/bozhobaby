@@ -1,0 +1,21 @@
+subject = "Нова резервация"
+layout = "default"
+==
+<p>
+    Нова резервация:<br />
+    <br />
+    Дата и час: {{ reservation.date | date("d.m.Y H:i") }}<br />
+    <br />
+    Адрес: {{ reservation.street }}<br />
+    Име: {{ reservation.name }} {{ reservation.lastname }}<br />
+    Email: {{ reservation.email }}<br />
+    Телефон: {{ reservation.phone }}<br />
+    Номер на обувка: {{ reservation.nomer_obuv }}<br />
+    Услуга: {{ reservation.usluga }}<br />
+    <br />
+    Съобшение: {{ reservation.message }}<br />
+    <br />
+    Създадено на: {{ reservation.created_at | date("d.m.Y H:i") }}<br />
+    <br />
+    Брой резервации с този e-mail: {{ reservationsCount }}<br />
+</p>

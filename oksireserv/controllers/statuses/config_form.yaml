@@ -1,0 +1,11 @@
+name: Statuses
+modelClass: Buzz\Oksireserv\Models\Status
+form: $/buzz/oksireserv/models/status/fields.yaml
+defaultRedirect: buzz/oksireserv/statuses
+create:
+    redirect: 'buzz/oksireserv/statuses/update/:id'
+    redirectClose: buzz/oksireserv/statuses
+update:
+    redirect: buzz/oksireserv/statuses
+    redirectClose: buzz/oksireserv/statuses
+preview: {  }

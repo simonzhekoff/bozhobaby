@@ -1,0 +1,32 @@
+{ 
+    "name": "buzz/oksireserv",
+    "type": "october-plugin",
+    "extra": {
+        "installer-name": "OksiReserv"
+    },
+    "description": "OksiReserv plugin for OctoberCMS",
+    "keywords": ["october", "plugin", "reservations"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Buzz",
+            "email": "bojko91@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "build": [
+            "@composer install --no-progress --no-interaction --no-suggest",
+            "@test"
+        ],
+        "test": [
+            "composer dumpautoload",
+            "phpunit"
+        ]
+    }
+}
