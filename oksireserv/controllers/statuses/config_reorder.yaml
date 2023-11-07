@@ -1,5 +1,0 @@
-title: Statuses
-modelClass: Buzz\Oksireserv\Models\Status
-nameFrom: name
-toolbar:
-    buttons: reorder_toolbar

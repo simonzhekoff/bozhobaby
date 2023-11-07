@@ -1,5 +1,0 @@
-export:
-    title: Export
-    modelClass: Buzz\Oksireserv\Models\ReservationExport
-    list: $/buzz/oksireserv/models/reservationsexport/columns.yaml
-    form: $/buzz/oksireserv/models/reservationsexport/fields.yaml
