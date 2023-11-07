@@ -1,0 +1,28 @@
+subject = "Вашата резервация"
+layout = "default"
+==
+<p>
+    Здравейте,<br />
+    <br />
+    Благодарим за направената резервация. По-долу ще намерите информация за нея:<br />
+    <br />
+    Дата и час: {{ reservation.date | date("d.m.Y H:i") }}<br />
+    <br />
+    Адрес: {{ reservation.street }}<br />
+    Име: {{ reservation.name }} {{ reservation.lastname }}<br />
+    Email: {{ reservation.email }}<br />
+    Телефон: {{ reservation.phone }}<br />
+    Номер на обувка: {{ reservation.nomer_obuv }}<br />
+    Услуга: {{ reservation.usluga }}<br />
+    <br />
+    Вашето съобщение: {{ reservation.message }}<br />
+    <br />
+    Приели сме вашата резервация на {{ reservation.created_at | date("d.m.Y H:i") }}.<br />
+    <br />
+    {% if reservationsCount == 1 %}
+    Очакваме ви с нетърпение!
+    <br />
+    {% endif %}
+    <br />
+    Благодарим ви, че отново избрахте нас!
+</p>

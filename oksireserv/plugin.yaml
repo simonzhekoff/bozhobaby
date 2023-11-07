@@ -1,0 +1,15 @@
+plugin:
+    name: 'buzz.oksireserv::lang.plugin.name'
+    description: 'buzz.oksireserv::lang.plugin.description'
+    author: 'Buzz'
+    icon: icon-calendar-o
+permissions:
+    buzz.oksireserv.reservations:
+        tab: buzz.oksireserv::lang.permission.tab_label
+        label: buzz.oksireserv::lang.permission.reservations
+    buzz.oksireserv.statuses:
+        tab: buzz.oksireserv::lang.permission.tab_label
+        label: buzz.oksireserv::lang.permission.statuses
+    buzz.oksireserv.export:
+        tab: buzz.oksireserv::lang.permission.tab_label
+        label: buzz.oksireserv::lang.permission.export
